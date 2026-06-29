@@ -87,56 +87,59 @@
       <path d="M166,143 l4,-11 4,11 z"/>
     </g>
 
-    <!-- ===== SEATBOX ===== -->
+    <!-- ===== SEATBOX (compact) ===== -->
     <!-- far legs (depth) -->
     <g opacity="0.55" stroke-linecap="round">
-      <path d="M76,104 L74,117" stroke="#3a3f44" stroke-width="5"/>
-      <path d="M108,104 L104,126" stroke="#3a3f44" stroke-width="5"/>
-      <ellipse cx="74" cy="118" rx="6" ry="2.6" fill="#1f2225"/>
-      <ellipse cx="104" cy="127" rx="6" ry="2.6" fill="#1f2225"/>
+      <path d="M76,104 L74,118" stroke="#3a3f44" stroke-width="5"/>
+      <path d="M94,104 L92,124" stroke="#3a3f44" stroke-width="5"/>
+      <ellipse cx="74" cy="119" rx="6" ry="2.6" fill="#1f2225"/>
+      <ellipse cx="92" cy="125" rx="6" ry="2.6" fill="#1f2225"/>
     </g>
-    <!-- box body + green trim + drawers -->
-    <rect x="50" y="79" width="74" height="6" rx="2" fill="#c2e000"/>
-    <rect x="52" y="83" width="70" height="20" fill="#1c1f22"/>
-    <line x1="52" y1="93" x2="122" y2="93" stroke="#0f1113" stroke-width="1.4"/>
-    <rect x="108" y="86" width="9" height="3.4" rx="1.2" fill="#c2e000"/>
-    <rect x="108" y="95" width="9" height="3.4" rx="1.2" fill="#c2e000"/>
-    <rect x="50" y="100" width="74" height="6" rx="2" fill="#c2e000"/>
+    <!-- box body + trim + drawers -->
+    <rect x="64" y="79" width="39" height="6" rx="2" fill="#19c8dc"/>
+    <rect x="66" y="83" width="35" height="20" fill="#1c1f22"/>
+    <line x1="66" y1="93" x2="101" y2="93" stroke="#0f1113" stroke-width="1.4"/>
+    <rect x="89" y="86" width="8" height="3.4" rx="1.2" fill="#19c8dc"/>
+    <rect x="89" y="95" width="8" height="3.4" rx="1.2" fill="#19c8dc"/>
+    <rect x="64" y="100" width="39" height="6" rx="2" fill="#19c8dc"/>
     <!-- cushion / seat -->
-    <rect x="46" y="69" width="82" height="13" rx="5" fill="#2a2d30"/>
-    <rect x="50" y="71" width="74" height="4" rx="2" fill="#3d4145"/>
-    <!-- footplate -->
-    <rect x="120" y="101" width="18" height="5" rx="2" fill="#2a2d30"/>
-    <rect x="120" y="100" width="18" height="2" fill="#c2e000"/>
-    <!-- near legs (front), telescopic with lime clamp + mud feet -->
+    <rect x="62" y="69" width="43" height="13" rx="5" fill="#2a2d30"/>
+    <rect x="66" y="71" width="35" height="4" rx="2" fill="#3d4145"/>
+    <!-- footplate (front footrest) -->
+    <rect x="98" y="105" width="24" height="5" rx="2" fill="#2a2d30"/>
+    <rect x="98" y="104" width="24" height="2" fill="#19c8dc"/>
+    <!-- near legs (front), telescopic with cyan clamp + mud feet -->
     <g stroke-linecap="round">
-      <path d="M60,106 L57,116" stroke="#2b2f33" stroke-width="6"/>
-      <circle cx="58" cy="111" r="2.3" fill="#c2e000"/>
-      <ellipse cx="57" cy="117" rx="8" ry="3.2" fill="#1f2225"/>
-      <rect x="53" y="114" width="8" height="3" rx="1.4" fill="#c2e000"/>
+      <path d="M70,106 L68,117" stroke="#2b2f33" stroke-width="6"/>
+      <circle cx="69" cy="111" r="2.3" fill="#19c8dc"/>
+      <ellipse cx="68" cy="118" rx="8" ry="3.2" fill="#1f2225"/>
+      <rect x="64" y="115" width="8" height="3" rx="1.4" fill="#19c8dc"/>
 
-      <path d="M116,106 L120,129" stroke="#2b2f33" stroke-width="6"/>
-      <circle cx="118" cy="117" r="2.3" fill="#c2e000"/>
-      <ellipse cx="120" cy="130" rx="8" ry="3.2" fill="#1f2225"/>
-      <rect x="116" y="127" width="8" height="3" rx="1.4" fill="#c2e000"/>
+      <path d="M99,106 L101,126" stroke="#2b2f33" stroke-width="6"/>
+      <circle cx="100" cy="116" r="2.3" fill="#19c8dc"/>
+      <ellipse cx="101" cy="127" rx="8" ry="3.2" fill="#1f2225"/>
+      <rect x="97" y="124" width="8" height="3" rx="1.4" fill="#19c8dc"/>
     </g>
 
     <!-- ===== ANGLER (seated, faces the water) ===== -->
     <g stroke-linecap="round">
       <!-- far leg -->
       <path d="M84,73 L116,77" stroke="#27374a" stroke-width="7" fill="none" opacity="0.7"/>
-      <path d="M116,77 L122,102" stroke="#27374a" stroke-width="6" fill="none" opacity="0.7"/>
+      <path d="M116,77 L108,104" stroke="#27374a" stroke-width="6" fill="none" opacity="0.7"/>
       <!-- near leg -->
       <path d="M86,72 L118,75" stroke="#2c3e55" stroke-width="8" fill="none"/>
-      <path d="M118,75 L124,103" stroke="#33495f" stroke-width="7" fill="none"/>
-      <ellipse cx="127" cy="104" rx="7" ry="3.4" fill="#22303f"/>
+      <path d="M118,75 L110,105" stroke="#33495f" stroke-width="7" fill="none"/>
+      <ellipse cx="110" cy="106" rx="7" ry="3.4" fill="#22303f"/>
       <!-- torso / jacket -->
       <path d="M79,73 L83,45 Q94,37 103,46 L99,74 Z" fill="#3f7d4f"/>
       <path d="M92,46 L91,74" stroke="#356b43" stroke-width="1.4"/>
-      <!-- head + cap -->
+      <!-- head + cap + sunglasses -->
       <circle cx="96" cy="33" r="9.5" fill="#e9b48c"/>
-      <path d="M86,33 Q96,19 106,32 Z" fill="#c0492f"/>
-      <path d="M104,31 L119,29 L118,34 L104,35 Z" fill="#a83c25"/>
+      <path d="M85,32 Q84,18 96,17.5 Q108,18 105,29 Q97,30.5 85,32 Z" fill="#1f3a6b"/>
+      <circle cx="96" cy="18" r="1.3" fill="#162a52"/>
+      <path d="M103,26.5 L122,27.5 L121,30 L104,29.5 Z" fill="#162a52"/>
+      <path d="M97,32 Q104,31 105,34 Q105,37 101,37 Q97,36.6 96,34 Z" fill="#15181c"/>
+      <line x1="97" y1="33" x2="88" y2="32.8" stroke="#15181c" stroke-width="1.7" stroke-linecap="round"/>
       <!-- ARM (rest on knee -> up to the rod on the strike) -->
       <path fill="none" stroke="#46885a" stroke-width="6">
         <animate attributeName="d"
@@ -162,7 +165,7 @@
     <!-- ===== ROD REST (bank stick) ===== -->
     <g stroke-linecap="round">
       <line x1="178" y1="84" x2="178" y2="150" stroke="#2b2f33" stroke-width="3.5"/>
-      <rect x="176" y="112" width="4" height="7" rx="1.5" fill="#c2e000"/>
+      <rect x="176" y="112" width="4" height="7" rx="1.5" fill="#19c8dc"/>
       <path d="M172,80 L178,86 L184,80" fill="none" stroke="#2b2f33" stroke-width="2.6"/>
     </g>
 
